@@ -71,12 +71,6 @@ void launch_exercise_int(int option)
     case 8:
         ejercicio_8();
         break;
-    case 9:
-        ejercicio_9();
-        break;
-    case 10:
-        ejercicio_10();
-        break;
     default:
         break;
     }    
@@ -123,15 +117,7 @@ void launch_exercise_string(char *option)
     else if (strcmp(option, "08") == 0)
     {
         ejercicio_8();
-    } 
-    else if (strcmp(option, "09") == 0)
-    {
-        ejercicio_9();
-    } 
-    else if (strcmp(option, "10") == 0)
-    {
-        ejercicio_10();
-    }  
+    }
 }
 
 /*
